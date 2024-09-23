@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Tutorial de aplicaciones web">
+    <meta name="keywords" content="Html5, Css, diseño web, Javascript, tutorial">
+    <title>Banners</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img {
+            width: 200px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="rayita1">
+        <img src="imagesIndex/logo3.png" height="80 px">
+    </div>
+    <div id="rayita2"></div>
+    <header><img src="Banners/header1.jpg" alt="404"></header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Inicio </a></li>
+            <li><a href="animaciones.html">Animaciones</a></li>
+            <li><a href="audioVideo.html">Audio y video</a></li>
+            <li><a href="banners.html">Banners</a></li>
+            <li><a href="viñetas.html">Viñetas</a></li>
+            <li><a href="degradados.html">Degradados</a></li>
+            <li><a href="evolucion.html">Evolución</a></li>
+            <li><a href="pagina1.html">Pagina 1</a></li>
+            <li><a href="pagina2.html">Pagina 2</a></li>
+            <li><a href="pagina3.html">Pagina 3</a></li>
+            <li><a href="pagina4.html">Pagina 4</a></li>
+            <li><a href="pagina5.html">Pagina 5</a></li>
+            <li><a href="SVG.html">Imagenes SVG</a></li>
+            <li><a href="sombras.html">Sombras</a></li>
+            <li><a href="textoEditable.html">Texto editable</a></li>
+        </ul>
+    </nav> 
+
+    <section>
+        <h2>Banners</h2>
+        <p>Estos banners fueron creados en la universidad en algunas clases, usando la herramienta fireworks, adjunto aquí los diseños para que los califique así mi profe.
+        </p>
+    </section>
+    <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+            <li data-target="#miCarrusel" data-slide-to="1"></li>
+            <li data-target="#miCarrusel" data-slide-to="2"></li>
+            <li data-target="#miCarrusel" data-slide-to="3"></li>
+            <li data-target="#miCarrusel" data-slide-to="4"></li>
+            <li data-target="#miCarrusel" data-slide-to="5"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Banners/ban1.jpg" class="d-block w-100" alt="Primera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Banners/ban2.jpg" class="d-block w-100" alt="Segunda Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Banners/ban3.jpg  " class="d-block w-100" alt="Tercera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>    
+            </div>
+            <div class="carousel-item">
+                <img src="Banners/ban4.jpg  " class="d-block w-100" alt="Tercera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>    
+            </div>
+            <div class="carousel-item">
+                <img src="Banners/ban5.jpg  " class="d-block w-100" alt="Tercera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>    
+            </div>
+            <div class="carousel-item">
+                <img src="Banners/header1.jpg  " class="d-block w-100" alt="Tercera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                </div>    
+            </div>
+            <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    <div class="gallery">
+        <h2><a href="banners.html" class="ban" >Banners</a></h2>
+        <div class="gallery-grid">
+            <img src="Banners/ban1.jpg" alt="Banner1">
+            <img src="Banners/ban2.jpg" alt="Banner2">
+            <img src="Banners/ban3.jpg" alt="Banner3">
+            <img src="Banners/ban4.jpg" alt="Banner4">
+            <img src="Banners/ban5.jpg" alt="Banner5">
+            <img src="Banners/about-1-570x251.jpg" alt="Banner5">
+            <img src="Banners/about-2-570x251.jpg" alt="Banner6">
+            <img src="Banners/swiper-slide-2.jpg" alt="Banner7">
+
+        </div>
+    </div>
+
+    <!-- Incluye el JavaScript de jQuery y Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>Sobre mí</h3>
+                <p>Desarrollador de software estudiante del Colegio Mayor del Cauca.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="mailto:stivrojas@gmail.com">jerson@gmail.com</a></li>
+                    <li><a href="tel:+123456789">+57 3237689227</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Jerson Stiv Rojas Gonzalez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
